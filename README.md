@@ -1,21 +1,9 @@
 # HelixRC
-theme = 'dark_plus'
 
-[editor]
-line-number = 'relative'
-mouse = false
-rulers = [80]
-shell = ['zsh', '-c'] 
-scrolloff = 2
-cursorline = true
+This is literally just a repository to get my Helix RC up and running on new machines. 
 
-[keys.normal]
-";" = [ "collapse_selection", "keep_primary_selection"]
-[keys.insert]
-";" = [":w","normal_mode" ]
-
-[editor.cursor-shape]
-insert = "bar"
-
-[editor.file-picker]
-hidden = false
+`if (you've tried Vim):
+  try Helix //slightly more intuitive, has a few utility bits built in like 'surround' and code actions and jumping through diagnostics, has LSP, syn highlighting out of the box and I've only been using it 1 day
+else:
+  try Vim (vimtutor) && try Helix (hx --tutor)
+`
