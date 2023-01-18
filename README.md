@@ -8,3 +8,8 @@ if (you've tried Vim):
 else:
   try Vim (vimtutor) && try Helix (hx --tutor)
 ```
+
+## Instructions
+As for transferring this:
+1. Clone this repo and `cd` into it.
+2. run `cp config.toml ~/.config/helix/config.toml`
